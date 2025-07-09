@@ -51,7 +51,7 @@ For updates, tips, and airdrop info:
 ```bash
 git clone https://github.com/AmoureuxID/Somnia-Exchange-Bot.git
 cd Somnia-Exchange-Bot
-npm install ethers dotenv axios
+npm install
 ```
 
 ### 2. Configuration
