@@ -1,0 +1,12 @@
+node_modules/
+.env
+cekpool.js
+main.js
+push.js
+saldo.js
+swap.js
+tes.js
+utils/
+*.log
+.DS_Store
+Thumbs.db

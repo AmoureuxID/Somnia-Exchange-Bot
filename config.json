@@ -1,0 +1,55 @@
+{
+  "loopSettings": {
+    "enabled": true,
+    "delayBetweenCyclesInSeconds": {
+      "min": 30,
+      "max": 60
+    }
+  },
+  "rpcUrl": "https://rpc.ankr.com/somnia_testnet",
+  "mainSettings": {
+    "delayBetweenModulesInSeconds": {
+      "min": 5,
+      "max": 10
+    },
+    "delayBetweenTransactionsInSeconds": {
+      "min": 5,
+      "max": 10
+    },
+    "slippageTolerancePercent": 5
+  },
+  "modules": {
+    "wrapSTT": {
+      "enabled": true,
+      "count": 1,
+      "amount": "0.01"
+    },
+    "swapSttToNia": {
+      "enabled": true,
+      "count": 1,
+      "amount": {
+        "min": 0.01,
+        "max": 0.02
+      }
+    },
+    "swapNiaToStt": {
+      "enabled": true,
+      "count": 1,
+      "amount": {
+        "min": 10,
+        "max": 15
+      }
+    },
+    "unwrapSTT": {
+      "enabled": true,
+      "count": 1,
+      "amount": "0.01"
+    }
+  },
+  "contractAddresses": {
+    "wrappedStt": "0xF22eF0085f6511f70b01a68F360dCc56261F768a",
+    "router": "0xb98c15a0dC1e271132e341250703c7e94c059e8D",
+    "wstt": "0xF22eF0085f6511f70b01a68F360dCc56261F768a",
+    "nia": "0xF2F773753cEbEFaF9b68b841d80C083b18C69311"
+  }
+}

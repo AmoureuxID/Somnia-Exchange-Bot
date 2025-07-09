@@ -1,0 +1,32 @@
+{
+  "name": "somnia-exchange-bot",
+  "version": "1.0.0",
+  "description": "Script untuk melakukan swap token menggunakan ethers.js versi 5.",
+  "main": "tes.js",
+  "scripts": {
+    "start": "node tes.js"
+  },
+  "author": "AmoureuxID",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.10.0",
+    "dotenv": "^16.6.1",
+    "ethers": "^5.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmoureuxID/Somnia-Exchange-Bot.git"
+  },
+  "keywords": [
+    "somnia",
+    "autobot",
+    "bot",
+    "automation",
+    "somnia-exchange",
+    "swap"
+  ],
+  "bugs": {
+    "url": "https://github.com/AmoureuxID/Somnia-Exchange-Bot/issues"
+  },
+  "homepage": "https://github.com/AmoureuxID/Somnia-Exchange-Bot#readme"
+}
